@@ -15,19 +15,16 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-        android:title="@string/dot_Extras_title" >
+        android:title="@string/dot_settings_title" >
 
-<PreferenceCategory
+   <PreferenceCategory
         android:key="dot_buttons"
         android:title="@string/dot_buttons">
 
-<PreferenceScreen
+	<PreferenceScreen
         android:fragment="com.dot.settings.fragments.PowerMenuSettings"
         android:key="dot_powermenu_settings"
-        android:title="@string/powermenu_settings_title"/>
+        android:title="@string/powermenu_settings_title"/>		
+   </PreferenceCategory>
 
-    </PreferenceCategory>
-
-  </PreferenceScreen>	
-		
 </PreferenceScreen>
