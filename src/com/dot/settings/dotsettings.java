@@ -23,7 +23,7 @@ import com.android.internal.logging.MetricsProto.MetricsEvent;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-public class DotSettings extends SettingsPreferenceFragment {
+public class dotsettings extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -34,7 +34,7 @@ public class DotSettings extends SettingsPreferenceFragment {
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.DOT;
+        return MetricsEvent.APPLICATION;
     }
 }
 

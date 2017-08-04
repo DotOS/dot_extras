@@ -19,12 +19,7 @@
 
    <PreferenceCategory
         android:key="dot_buttons"
-        android:title="@string/dot_buttons">
-
-	<PreferenceScreen
-        android:fragment="com.dot.settings.fragments.PowerMenuSettings"
-        android:key="dot_powermenu_settings"
-        android:title="@string/powermenu_settings_title"/>		
+        android:title="@string/dot_buttons">		
    </PreferenceCategory>
 
 </PreferenceScreen>
